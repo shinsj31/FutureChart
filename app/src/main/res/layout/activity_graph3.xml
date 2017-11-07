@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soo.futurechart.Graph3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/graph_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_bar"></View>
+
+            <com.example.soo.futurechart.GraphView
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:bar_gap="130dp"
+                app:text_gap="60dp"
+                app:text_padding="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

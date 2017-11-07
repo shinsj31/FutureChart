@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soo.futurechart.eventList_item">
+    <EditText
+        android:hint="name"
+        android:id="@+id/et_name"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/et_name"/>
+    <EditText
+        android:hint="year"
+        android:id="@+id/et_year"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/et_year"/>
+    <EditText
+        android:hint="value"
+        android:id="@+id/et_value"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text2"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="✓"
+        android:textColor="@color/color_bar"
+        android:background="@drawable/circle_button3"
+        android:layout_toRightOf="@id/et_value"/>
+</RelativeLayout>

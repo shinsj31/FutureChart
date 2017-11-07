@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphView">
+        <attr name="bar_gap" format="dimension"></attr>
+        <attr name="text_gap" format="dimension"></attr>
+        <attr name="base_col" format="color"></attr>
+        <attr name="text_padding" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="GraphView2">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textGap" format="dimension" />
+
+        <attr name="lineColor" format="color" />
+        <attr name="lineGap" format="dimension"/>
+        <attr name="lineThickness" format="dimension" />
+    </declare-styleable>
+</resources>
